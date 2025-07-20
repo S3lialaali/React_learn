@@ -19,7 +19,7 @@ const MovieCard = ({ id, poster_path, title, vote_average, release_date }: Movie
         />
 
         {/* Info Box */}
-        <View className="bg-[#101522] p-2 rounded-b-lg">
+        <View className="bg-info p-2 rounded-b-lg">
           <Text className="text-sm font-semibold text-white mb-1" numberOfLines={1}>
             {title}
           </Text>
